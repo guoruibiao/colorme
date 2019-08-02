@@ -7,13 +7,6 @@ try making console text colorfully.
 格式：\033[显示方式;前景色;背景色m
 ```
 
-
-bash中要想实测需使用:
-```bash
-echo -e format-string
-```
-
-
 前景色|背景色|颜色
 :-:|:-:|:-:
 30|40|黑色
@@ -39,4 +32,8 @@ echo -e format-string
 example
 ```
 \033[1;31;40m string \033[0m
+```
+bash中要想实测需使用:
+```bash
+echo -e format-string
 ```
