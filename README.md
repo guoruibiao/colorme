@@ -20,7 +20,7 @@ try making console text colorfully.
 
 
 显示方式|表现
-:-:|:-:|:-:
+:-:|:-:
 0|终端默认设置
 1|高亮显示
 4|使用下划线
