@@ -78,6 +78,7 @@ print Enhancer.mix("what a amazing colorama!", Color.BLACK_PURPLE, Style.UNDERLI
 
 ## todo
 
+- [ ] `refactor` the expose functions.
 - [ ] no style for `iterm2`.
-- [ ] support more flexible functions.
-- [ ] support Python3(it's easy, right?)
+- [ ] support more `flexible` functions.
+- [ ] support Python3 (it's easy, :) right?)
