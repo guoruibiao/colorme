@@ -74,3 +74,10 @@ text = "郭璞"
 print Enhancer.highlight(text, Color.BACK_GREEN, Style.BLINK)
 print Enhancer.mix("what a amazing colorama!", Color.BLACK_PURPLE, Style.UNDERLINE+Style.HIGHLIGHT+Style.BLINK)
 ```
+
+
+## todo
+
+- [ ] no style for `iterm2`.
+- [ ] support more flexible functions.
+- [ ] support Python3(it's easy, right?)
