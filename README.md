@@ -41,6 +41,17 @@ echo -e format-string
 ## usage
 
 for bash
+```bash
+. colorme.sh
+
+# with colorme
+echo -e `colorme raw-string func1 func2 ...`
+
+# with customize
+echo -e `customize raw-string style fore-color background-color`
+```
+
+exapmle
 ```
 # include the lib of colorme
 . colorme.sh
