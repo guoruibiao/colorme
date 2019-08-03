@@ -37,3 +37,29 @@ bash中要想实测需使用:
 ```bash
 echo -e format-string
 ```
+
+## usage
+
+for bash
+```
+# include the lib of colorme
+. colorme.sh
+# or source ./colorme.sh
+
+# testcase
+ret=`colorme 郭瑞彪 highlight yellow`
+echo -e $ret
+ret=`customize tiger blink red black`
+echo -e $ret
+```
+
+![demo.gif](https://github.com/guoruibiao/colorme/blob/master/demo.gif?raw=true)
+
+for Python
+```
+#!/usr/bin/env python2
+from colorme import Enhancer
+text = "郭璞"
+print Enhancer.highlight(text, Color.BACK_GREEN, Style.BLINK)
+print Enhancer.mix("what a amazing colorama!", Color.BLACK_PURPLE, Style.UNDERLINE+Style.HIGHLIGHT+Style.BLINK)
+```
