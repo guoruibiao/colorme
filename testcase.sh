@@ -3,7 +3,7 @@
 # or source ./colorme.sh
 
 # testcase
-ret=`colorme 郭璞 highlight black`
+ret=`colorme 郭璞 highlight red white`
 echo -e $ret
-ret=`customize tiger blink red black`
+ret=`customize tiger blink highlight red black`
 echo -e $ret
