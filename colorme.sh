@@ -109,7 +109,7 @@ function _get_style_value() {
     esac
 }
 
-function customize() {
+function colorme() {
     # todo limit the parameters
     style=`_get_style_value $2`
     font=`_get_color_value $3`
@@ -120,7 +120,7 @@ function customize() {
 
 # factory for formating string 
 # use `shift` to support unlimited parameters...
-function colorme() {
+function customize() {
     ret=$1
     shift
     while [ -n "$1"  ]
@@ -130,10 +130,3 @@ function colorme() {
     done
     echo $ret
 }
-
-
-# testcase
-# ret=`colorme 郭璞 highlight black`
-# echo -e $ret
-# ret=`customize tiger blink red black`
-# echo -e $ret
